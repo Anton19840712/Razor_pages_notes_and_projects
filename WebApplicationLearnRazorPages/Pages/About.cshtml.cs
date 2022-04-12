@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Bakery.Pages
+namespace WebApplicationLearnRazorPages.Pages
 {
     public class AboutModel : PageModel
     {
