@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationRazorAjax", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationUserAjax", "WebApplicationUserAjax\WebApplicationUserAjax.csproj", "{6342774B-8000-489D-985A-81CE78DDDB4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationLearnRazorPages", "WebApplicationLearnRazorPages\WebApplicationLearnRazorPages.csproj", "{62BA3F93-C574-442D-B99F-7560CEBB065A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6342774B-8000-489D-985A-81CE78DDDB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6342774B-8000-489D-985A-81CE78DDDB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6342774B-8000-489D-985A-81CE78DDDB4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62BA3F93-C574-442D-B99F-7560CEBB065A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62BA3F93-C574-442D-B99F-7560CEBB065A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62BA3F93-C574-442D-B99F-7560CEBB065A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62BA3F93-C574-442D-B99F-7560CEBB065A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
