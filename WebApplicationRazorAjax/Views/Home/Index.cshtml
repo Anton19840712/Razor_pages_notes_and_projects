@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container">
+    <h2>Users Record</h2>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" onclick="clearTextBox();">Add New User</button><br /><br />
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Login</th>
+                <th>Password</th>
+                <th>Email</th>
+                <th>LastVisitDate</th>
+                <th>IsActive</th>
+                <th>IsDeleted</th>
+                <th>RegistrationDate</th>
+            </tr>
+        </thead>
+        <tbody class="tbody"></tbody>
+    </table>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4 class="modal-title" id="myModalLabel">Add Employee</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="Id">Id</label>
+                        <input type="text" class="form-control" id="ID" placeholder="Id" disabled="disabled" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Login">Login</label>
+                        <input type="text" class="form-control" id="Login" placeholder="Login" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Password">Password</label>
+                        <input type="text" class="form-control" id="Password" placeholder="Password" />
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="text" class="form-control" id="Email" placeholder="Email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="LastVisitDate">LastVisitDate</label>
+                        <input type="text" class="form-control" id="LastVisitDate" placeholder="LastVisitDate" />
+                    </div>
+                    <div class="form-group">
+                        <label for="IsActive">IsActive</label>
+                        <input type="text" class="form-control" id="IsActive" placeholder="IsActive" />
+                    </div>
+                    <div class="form-group">
+                        <label for="IsDeleted">IsDeleted</label>
+                        <input type="text" class="form-control" id="IsDeleted" placeholder="IsDeleted" />
+                    </div>
+                    <div class="form-group">
+                        <label for="RegistrationDate">RegistrationDate</label>
+                        <input type="text" class="form-control" id="RegistrationDate" placeholder="RegistrationDate" />
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btnAdd" onclick="return Add();">Add</button>
+                <button type="button" class="btn btn-primary" id="btnUpdate" style="display:none;" onclick="Update();">Update</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Scripts/Users.js"></script>
